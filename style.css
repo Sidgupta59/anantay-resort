@@ -258,6 +258,10 @@ a {
     text-align: center;
 }
 
+.contact .contact-info {
+    font-weight: 500;
+}
+
 .contact .card-section .card:hover {
     background-color: #da9b36;
     color: white;
