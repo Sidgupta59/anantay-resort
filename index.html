@@ -188,8 +188,10 @@
 
     </footer>
 </body>
+<script>
+    document.querySelectorAll('.menu a').forEach(link =>
+        link.addEventListener('click', () => document.getElementById('menu-btn').checked = false)
+    );
+</script>
 
 </html>
-
-
-<!-- insta , whst,email -->
