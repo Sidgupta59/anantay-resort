@@ -507,6 +507,14 @@ a {
     /* padding-right: 30px; */
 }
 
+.social a i {
+    font-size: 24px;
+    height: 34px;
+    display: flex;
+    align-items: center;
+    width: 38px;
+}
+
 .footer .copyright {
     background: var(--primary-black, #030304);
     color: var(--white, var(--white, #fff));
@@ -589,6 +597,7 @@ a {
     #hero-section .one-liner {
         padding-left: 10px;
         font-size: 20px;
+
 
     }
 
