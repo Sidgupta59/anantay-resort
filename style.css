@@ -513,6 +513,7 @@ a {
     display: flex;
     align-items: center;
     width: 38px;
+    justify-content: center;
 }
 
 .footer .copyright {
