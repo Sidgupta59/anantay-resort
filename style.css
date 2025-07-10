@@ -186,7 +186,7 @@ a {
 }
 
 #hero-section {
-    padding: 150px 0 0;
+    padding: 90px 0 0;
 
 
 }
@@ -243,7 +243,7 @@ a {
     width: 100%;
     /* height: 0; */
     overflow: hidden;
-    max-width: 1240px;
+    /* max-width: 1240px; */
     margin: auto;
 }
 
@@ -262,7 +262,7 @@ a {
     width: 100%;
     height: 70%;
     object-fit: cover;
-    border: 1px solid #da9b36;
+    /* border: 1px solid #da9b36; */
 }
 
 /* SECTION 2 */
