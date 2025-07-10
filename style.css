@@ -625,6 +625,10 @@ a {
         border: none;
     }
 
+    .header .menu-icon {
+        padding: 35px 20px;
+    }
+
     .contact .card-section {
         overflow-x: scroll;
     }
