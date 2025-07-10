@@ -259,6 +259,7 @@ a {
 
 .contact .card-section .card:hover {
     background-color: #da9b36;
+    color: white;
 }
 
 .contact .card-section {
@@ -610,6 +611,19 @@ a {
         height: auto;
         object-fit: contain;
         border: none;
+    }
+
+    .contact .card-section {
+        overflow-x: scroll;
+    }
+
+    .contact .card-section .card {
+        min-height: 200px;
+        min-width: 200px;
+    }
+
+    .contact {
+        padding: 0 16px;
     }
 
     .about {
