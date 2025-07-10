@@ -474,7 +474,7 @@ a {
     justify-content: center;
     align-items: center;
     background: var(--primary-black, #030304);
-    padding: 50px 90px 40px 125px;
+    padding: 50px 0;
 }
 
 
