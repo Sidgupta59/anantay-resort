@@ -471,10 +471,10 @@ a {
 
 .footer .footer-bottom {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     background: var(--primary-black, #030304);
-    padding: 0 90px 40px 125px;
+    padding: 50px 90px 40px 125px;
 }
 
 
