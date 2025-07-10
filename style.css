@@ -273,10 +273,17 @@ a {
     gap: 20px;
 }
 
+.contact .card-section i {
+    color: #da9b36;
+}
+
+.contact .card-section i:hover {
+    color: white;
+}
+
+
 #hero-section .one-liner {
-
     color: var(--black-2, #2E2E2E);
-
     font-style: normal;
     font-weight: 600;
     line-height: normal;
