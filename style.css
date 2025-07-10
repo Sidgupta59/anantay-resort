@@ -641,6 +641,7 @@ a {
     .left-empower h2 {
         display: flex;
         flex-direction: row;
+        text-align: center;
     }
 
     .empower-talent .right-empower img {
