@@ -474,7 +474,7 @@ a {
     justify-content: center;
     align-items: center;
     background: var(--primary-black, #030304);
-    padding: 50px 0;
+    /* padding: 50px 90px 40px 125px; */
 }
 
 
@@ -499,7 +499,7 @@ a {
 .footer .footer-bottom .social {
     gap: 20px;
     display: flex;
-    padding-right: 30px;
+    /* padding-right: 30px; */
 }
 
 .footer .copyright {
