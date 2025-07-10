@@ -627,8 +627,12 @@ a {
     }
 
     .about {
-        margin-top: 20px;
+        margin: 20px 16px;
         padding: 20px;
+    }
+
+    .about p {
+        font-size: 12px;
     }
 
     .logo-without {
