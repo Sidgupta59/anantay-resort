@@ -277,8 +277,8 @@ a {
     color: #da9b36;
 }
 
-.contact .card-section i:hover {
-    color: white;
+.contact .card-section .card:hover i {
+    color: white !important;
 }
 
 
