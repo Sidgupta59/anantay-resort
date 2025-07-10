@@ -188,15 +188,22 @@ a {
 #hero-section {
     padding: 150px 0 0;
 
-    h1 {
-        margin-bottom: 40px;
-        color: var(--black-2, #2E2E2E);
-        text-align: center;
-        font-size: 48px;
-        font-style: normal;
-        font-weight: 600;
-        line-height: normal;
-    }
+
+}
+
+#hero-section .one-liner {
+
+    color: var(--black-2, #2E2E2E);
+
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: left;
+    font-size: 18px;
+    max-width: 1240px;
+    margin: auto;
+    margin-bottom: 40px;
+    margin-top: 5px;
 }
 
 .video-container {
@@ -207,6 +214,17 @@ a {
     max-width: 1240px;
     margin: auto;
 }
+
+.logo-without {
+    position: absolute;
+    width: 150px;
+    height: 120px;
+    z-index: 2;
+    top: 20px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
 
 .video-container video {
     width: 100%;
@@ -469,6 +487,7 @@ a {
 
 
 @media (min-width: 768px) {
+
     .header {
         display: flex;
         align-items: center;
@@ -496,12 +515,42 @@ a {
 
 /* MOBILE MEDIA QUERIES */
 @media (max-width: 768px) {
+    .video-container video {
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+        border: none;
+    }
+
+    .logo-without {
+        bottom: 10px;
+        right: 10px;
+        width: 50px;
+        height: 50px;
+        left: auto;
+        transform: none;
+        top: auto;
+    }
+
     .desk {
         display: none !important;
     }
 
     .mob {
         display: block !important;
+    }
+
+    .header {
+        padding: 0 20px;
+    }
+
+    #hero-section {
+        padding-top: 72px;
+    }
+
+    #hero-section .one-liner {
+        padding-left: 10px;
+        font-size: 12px;
     }
 
     .header li a {
@@ -528,7 +577,7 @@ a {
 
     .empower-talent .portfolio-showcase p {
 
-        font-size: 14px;
+        font-size: 12px;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
