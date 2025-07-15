@@ -247,7 +247,7 @@ a {
 }
 
 
-.contact .card-section .card {
+.contact .card-section a {
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -261,11 +261,17 @@ a {
     text-align: center;
 }
 
+.contact .card-section .card {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
 .contact .contact-info {
     font-weight: 500;
 }
 
-.contact .card-section .card:hover {
+.contact .card-section a:hover {
     background-color: #da9b36;
     color: white;
 }
@@ -280,7 +286,7 @@ a {
     color: #da9b36;
 }
 
-.contact .card-section .card:hover i {
+.contact .card-section a:hover i {
     color: white !important;
 }
 
